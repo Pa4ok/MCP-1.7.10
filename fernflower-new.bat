@@ -1,0 +1,2 @@
+@echo off
+java -Xmx4G -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=8999 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -XX:+UnlockCommercialFeatures -XX:+FlightRecorder -jar runtime\fernflower-new.jar -dgs=true class src

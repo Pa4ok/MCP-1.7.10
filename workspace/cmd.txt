@@ -1,0 +1,1 @@
+java -cp BON.jar immibis.bon.cui.MCPRemap -mcp mcp_1.7.10 -from SRG -to MCP -side UNIVERSAL -ref mcp_1.7.10/bin/minecraft -jref lib
